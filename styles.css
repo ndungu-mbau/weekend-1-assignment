@@ -1,0 +1,529 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  background-color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+.first {
+  background-image: url("./images/hero.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 6rem;
+
+  color: white;
+  padding-top: 15px;
+}
+
+.brand {
+  display: flex;
+}
+
+.nav {
+  margin: 0 3rem;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav ul li {
+  padding: 0 1rem;
+}
+
+.profile ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.profile ul li {
+  margin: 0 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.brandname {
+  font-weight: bold;
+  color: white;
+}
+
+.getstarted {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 4rem 0;
+  color: white;
+}
+
+.started {
+  width: 70wh;
+}
+
+.circles ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.circles ul li {
+  padding: 10px;
+  background-color: rgb(40, 128, 134);
+  margin: 0 1rem;
+  border-radius: 3rem;
+  font-weight: bold;
+}
+
+.circles,
+.hed,
+.paragraph {
+  margin: 2rem 0;
+}
+
+.circles {
+  margin-bottom: 5rem;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.icon {
+  background-color: white;
+}
+
+.drawings ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.drawings ul li {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+  list-style-type: none;
+  background-color: white;
+  padding: 10px 40px 10px 10px;
+  margin-bottom: -5rem;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.drawings ul li p {
+  color: gray;
+}
+
+.drawings ul li h2 {
+  color: black;
+}
+
+.white p {
+  color: gray !important;
+}
+
+.white ion-icon {
+  color: rgb(58, 150, 167) !important;
+  font-size: 3rem;
+}
+
+.blue {
+  background-color: rgb(58, 150, 167) !important;
+}
+
+.blue ion-icon {
+  font-size: 3rem;
+}
+
+.blue h2,
+p,
+ion-icon {
+  color: white !important;
+}
+
+.gray {
+  background-color: white;
+  height: 7rem;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  background-color: white;
+}
+
+.pure-icons {
+  width: 80%;
+}
+
+.pure-icons ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pure-icons ul li {
+  list-style-type: none;
+  color: black;
+  text-align: center;
+}
+
+.pure-icons ul li p {
+  color: gray !important;
+}
+
+.pure-icons ul li ion-icon {
+  color: rgb(44, 180, 151) !important;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.industrial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  gap: 4rem;
+  background-color: rgb(211, 204, 204);
+}
+
+.industry {
+  text-align: center;
+}
+
+.industry > h1 {
+  margin-bottom: 1rem;
+}
+
+.industry > p {
+  color: gray;
+}
+
+.faces ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  gap: 3rem;
+}
+
+.faces ul li {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border: solid rgb(184, 176, 176) 1px;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: white;
+}
+
+.faces ul li p {
+  color: gray !important;
+}
+
+.faces ul li .star-rating ion-icon {
+  color: yellow !important;
+}
+
+.comp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+  gap: 2rem;
+  background-color: white;
+}
+
+.companies {
+  width: 57%;
+}
+
+.companies ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.companies ul li {
+  margin: 0 1rem;
+}
+
+.news-letter {
+  width: 57%;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+    to right,
+    rgb(16, 79, 196),
+    purple,
+    rgb(196, 19, 196)
+  );
+  padding: 1rem;
+}
+
+.profiles {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, white 50%, rgb(58, 150, 167) 50%);
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.email > p {
+  color: gray !important;
+}
+
+.subscribe > h4 {
+  color: white;
+}
+
+.price {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.price p {
+  color: gray !important;
+}
+
+.pricing {
+  display: grid;
+  grid-template-areas: "free standard premium";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  margin: 2rem 4rem;
+}
+
+.free {
+  grid-area: free;
+  gap: 20px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.free h1 {
+  color: rgb(58, 150, 167) !important;
+}
+
+.standard {
+  grid-area: standard;
+  background-color: rgb(50, 50, 104);
+  gap: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.standard h1 {
+  color:  rgb(58, 150, 167) !important;
+}
+
+.standard h2 {
+  color: white !important;
+}
+
+.standard p {
+  color: white !important;
+}
+
+.premium {
+  grid-area: premium;
+  gap: 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: solid rgb(58, 150, 167) 1px;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.offers {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.offers ion-icon {
+  color: rgb(249, 253, 249) !important;
+  background-color: green;
+  border-radius: 10px;
+}
+
+.try {
+  padding: 10px 40px;
+  background-color: rgb(58, 150, 167);
+  border-radius: 5px;
+}
+
+.try p {
+  color: white !important;
+}
+
+.world {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(42, 55, 68);
+  padding: 40px;
+  padding-bottom: 20rem;
+}
+
+.worlds {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.worlds h1 {
+  color: white;
+}
+
+.consultancy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 227, 227);
+}
+
+.appointment {
+  display: grid;
+  grid-template-areas: "faces appointment-profile";
+  grid-template-columns: 2, 1fr;
+  grid-template-rows: 1, 1fr;
+  padding: 2rem 0;
+  margin-top: -15rem;
+}
+
+.faces {
+  grid-area: faces;
+}
+
+.appointment-profile {
+  grid-area: appointment-profile;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 4rem;
+}
+
+.appointment-profile h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 10px 4rem;
+  background-color: rgb(58, 150, 167);
+  color: white;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 3px;
+  border: none;
+}
+
+.form .input-field {
+  display: block;
+  border: solid gray 1px;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.form select.input-field {
+  border: solid gray 1px;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.business-consultancy {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: rgb(231, 227, 227);
+  margin-top: 3rem;
+}
+
+.contact-us {
+  padding: 10px 15px;
+  background-color: rgb(58, 150, 167);
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 10rem;
+}
+
+.information ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.information ul li {
+  color: gray;
+}
+
+.information ion-icon {
+  color: rgb(58, 150, 167) !important;
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.footer-icons ion-icon {
+  color: rgb(58, 150, 167) !important;
+  font-size: 20px;
+}
+
+.footer-icons ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.footer-icons ul li {
+  margin: 0 10px;
+}
+
+.footer-words p {
+  color: gray !important;
+}
