@@ -13,6 +13,7 @@
   font-display: swap;
 }
 .first {
+  height: 100svh;
   background-image: url("./images/hero.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -106,50 +107,59 @@
   background-color: white;
 }
 
-.drawings ul {
+.cards ul {
   display: flex;
   justify-content: space-around;
 }
 
-.drawings ul li {
+.cards ul li.card {
   display: flex;
   flex-direction: column;
   margin: 0 1rem;
   list-style-type: none;
   background-color: white;
-  padding: 10px 40px 10px 10px;
+  padding: 2rem;
+  border-radius: 16px;
   margin-bottom: -5rem;
   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
-.drawings ul li p {
+.cards ul li.card:hover {
+  background-color: rgb(58, 150, 167) !important;
+}
+
+.cards ul li.card:hover p {
+  color: white !important;
+}
+
+.cards ul li.card p {
   color: gray;
 }
 
-.drawings ul li h2 {
+.cards ul li.card h2 {
   color: black;
 }
 
-.white p {
+.cards ul li.card p {
   color: gray !important;
 }
 
-.white ion-icon {
+.cards ul li.card ion-icon {
   color: rgb(58, 150, 167) !important;
   font-size: 3rem;
 }
 
 .blue {
-  background-color: rgb(58, 150, 167) !important;
+  
 }
 
-.blue ion-icon {
+.cards ul li.card:hover ion-icon {
   font-size: 3rem;
 }
 
-.blue h2,
+.cards ul li.card:hover h2,
 p,
-ion-icon {
+.cards ul li.card:hover ion-icon {
   color: white !important;
 }
 
